@@ -10,5 +10,6 @@ export default defineConfig({
   preview: {
     port: process.env.PORT || 4173, // Use Render's assigned port
     host: "0.0.0.0", // Allow external connections
+    allowedHosts: ["react-portfolio-vk87.onrender.com"], // Allow Render host
   },
 });
